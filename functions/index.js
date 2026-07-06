@@ -113,7 +113,7 @@ export async function onRequest(context) {
                         ${p.area !== "0" ? `<span class="area"><i class="houzez-icon icon-ruler-triangle"></i> ${p.area} m²</span>` : ''}
 						${p.parking && p.parking !== "0" ? `<span class="garaje"><i class="houzez-icon icon-car-1 me-2"></i> ${p.parking}</span>` : ''}
                     </span>
-                    <span class="precio">${p.moneda} ${Number(p.precio).toLocaleString('es-CO')}</span>
+                    <span class="precio">Bs ${Number(p.precio).toLocaleString('es-CO')}</span>
                 </article>`;
         }
 
