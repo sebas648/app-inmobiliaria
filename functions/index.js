@@ -88,7 +88,7 @@ export async function onRequest(context) {
                 tipo: limpiar(dato[idx.tipo]),
                 operacion: limpiar(dato[idx.operacion]),
                 precio: limpiar(dato[idx.precio]) || "0",
-                moneda: limpiar(dato[idx.moneda]) || "$",
+                moneda: limpiar(dato[idx.moneda]) || "Bs",
                 habs: limpiar(dato[idx.habs]) || "0",
                 banos: limpiar(dato[idx.banos]) || "0",
                 parking: limpiar(dato[idx.parking]) || "0",
