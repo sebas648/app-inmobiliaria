@@ -282,7 +282,7 @@ export async function onRequest(context) {
     								<label>Teléfono móvil:</label>
     								<div style="display: flex; gap: 5px;">
         								<select id="indicativo" style="max-width: 100px;">
-              								<option value="+591" selected>BO +591 BO</option>
+              								<option value="+591" selected>🇧🇴 +591 BO</option>
             								<option value="+52">🇲🇽 +52 MX</option>
             								<option value="+34">🇪🇸 +34 ES</option>
             								<option value="+1">🇺🇸 +1 US</option>
@@ -293,7 +293,7 @@ export async function onRequest(context) {
             								<option value="+593">🇪🇨 +593 EC</option>
             								<option value="+58">🇻🇪 +58 VE</option>
             								<option value="+502">🇬🇹 +502 GT</option>
-            								<option value="+57">CO +57 CO</option>
+            								<option value="+57">🇨🇴 +57 CO</option>
             								<option value="+506">🇨🇷 +506 CR</option>
             								<option value="+503">🇸🇻 +503 SV</option>
             								<option value="+504">🇭🇳 +504 HN</option>
