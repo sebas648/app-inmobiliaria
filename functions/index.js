@@ -148,6 +148,9 @@ function generarPlantilla(tarjetas, total, c) {
         .banner-inicio .contenedor { 
             background-image: linear-gradient(180deg, ${c.color}AB 0%, rgba(0, 0, 0, 0.84) 100%), 
                 url(https://i.ibb.co/C5wDs1vD/INM-BANNER-jpg-2-K-202607062006.jpg) !important;
+			background-size: cover !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
 		 }
          .relleno-5 { padding: 10px 20px 55px 20px; }
         .houzez-icon.icon-Filter-Faders{ font-size: 30px; 
